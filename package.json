@@ -1,0 +1,17 @@
+{
+  "name": "idleminer",
+  "version": "1.0.1",
+  "description": "IdleMiner AutoFarm by Lorio#0666",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorio#0666",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "download": "^8.0.0",
+    "moment": "^2.25.3",
+    "tesseract.js": "^2.1.1"
+  }
+}
