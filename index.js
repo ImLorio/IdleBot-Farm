@@ -21,7 +21,7 @@ moment.defaultFormat = "LTS"
 // Channel ID (where you want to use the bot)
 let botchannelID = require('./config.json').botchannelID;
 let IdleMinerBotID = require('./config.json').IdleMinerBotID;
-
+if (require('./config.json').token === "") return console.log(`[${moment().format('LTS')}] token is not defined. (in config.js)`);
 if (botchannelID === "") return console.log(`[${moment().format('LTS')}] BotChannel is not defined. (in config.js)`);
 if (IdleMinerBotID === "") return console.log(`[${moment().format('LTS')}] IdleMinerBotID is not defined. (in config.js)`);
 
